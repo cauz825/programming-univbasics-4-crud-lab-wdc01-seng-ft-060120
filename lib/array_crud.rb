@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   artists = ["hardy", "cole swindell", "dierks bentley"]
-  artists << "niko moon"
+  artists.push("niko moon")
   p artists
 end
 
